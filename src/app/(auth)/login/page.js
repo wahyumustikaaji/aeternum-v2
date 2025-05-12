@@ -1,6 +1,6 @@
 "use client"
 
-import { LoginForm } from "@/components/ui/form-login"
+import { LoginForm } from "@/components/auth/form-login"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -10,11 +10,11 @@ export default function LoginPage() {
       <div className="flex flex-col gap-4 p-6 md:p-10">
         <div className="flex justify-center gap-2 md:justify-start">
             <Link href="/">
-                <Image src="/assets/images/logo-light.png" alt="Logo Aeternum" width={150} height={150} />
+                <Image src="/assets/images/logo.png" alt="Logo Aeternum" width={150} height={150} />
             </Link>
         </div>
         <div className="flex flex-1 items-center justify-center">
-          <div className="w-full max-w-xs">
+          <div className="w-full max-w-md">
             <LoginForm />
           </div>
         </div>

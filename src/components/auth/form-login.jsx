@@ -22,9 +22,9 @@ export function LoginForm({ className, ...props }) {
               Forgot your password?
             </a>
           </div>
-          <Input id="password" type="password" required />
+          <Input id="password" type="password" required placeholder="••••••" />
         </div>
-        <Button type="submit" className="w-full cursor-pointer">
+        <Button type="submit" className="w-full cursor-pointer bg-emerald-600 hover:bg-emerald-700">
           Login
         </Button>
         <div className="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border">
