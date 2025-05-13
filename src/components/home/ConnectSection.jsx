@@ -4,10 +4,10 @@ import { motion } from "motion/react";
 
 export function WorldMapDemo() {
   return (
-    <div className=" py-40 w-full">
+    <div className=" py-24 w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-        One World, <span className="text-neutral-400">One Chain</span>
+        One World, <span className="text-emerald-500">One Chain</span>
           {/* <span className="text-neutral-400">
             {"One Chain".split("").map((word, idx) => (
               <motion.span
