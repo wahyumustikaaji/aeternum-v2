@@ -1,10 +1,10 @@
 "use client"
 
-import { RegisterForm } from "@/components/auth/form-register"
+import { LoginForm } from "@/components/auth/form-login"
 import Image from "next/image"
 import Link from "next/link"
 
-export default function RegisterPage() {
+export default function LoginPage() {
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
       <div className="flex flex-col gap-4 p-6 md:p-10">
@@ -15,15 +15,15 @@ export default function RegisterPage() {
         </div>
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-md">
-            <RegisterForm />
+            <LoginForm />
           </div>
         </div>
       </div>
       <div className="relative hidden bg-muted lg:block">
         <img
-          src="/placeholder.svg"
+          src="/assets/images/login.webp"
           alt="Image"
-          className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+          className="absolute grayscale inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />
       </div>
     </div>
